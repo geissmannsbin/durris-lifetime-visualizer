@@ -65,7 +65,9 @@ function App() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Life Time Visualization</h1>
+      <h1>Duris Life Time Visualization</h1>
+      <h2>(vell spass demet boy)</h2>
+
       <div style={{ marginBottom: '20px' }}>
         <div>
           <p>Age</p>
@@ -124,7 +126,7 @@ function App() {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(52, 2px)',
+          gridTemplateColumns: 'repeat(52, 4px)',
           gap: '1px',
           marginTop: '20px',
         }}
@@ -133,8 +135,8 @@ function App() {
           <div
             key={index}
             style={{
-              width: '2px',
-              height: '2px',
+              width: '4px',
+              height: '4px',
               backgroundColor: color,
             }}
           ></div>

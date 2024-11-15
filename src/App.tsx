@@ -118,10 +118,7 @@ function App() {
       </div>
       <div>
         <p>Total Weeks Left: {weeksLeft}</p>
-        <p>Weeks Sleeping: {weeksSleeping}</p>
-        <p>Weeks on Screen: {weeksOnScreen}</p>
-        <p>Weeks Working: {weeksWorking}</p>
-        <p>Weeks for Other Activities: {weeksOther}</p>
+ 
       </div>
       <div
         style={{
@@ -141,6 +138,12 @@ function App() {
             }}
           ></div>
         ))}
+      </div>
+      <div>
+      <p>Weeks Sleeping: {weeksSleeping}</p>
+        <p>Weeks on Screen: {weeksOnScreen}</p>
+        <p>Weeks Working: {weeksWorking}</p>
+        <p>Weeks for Other Activities: {weeksOther}</p>
       </div>
     </div>
   );
